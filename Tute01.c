@@ -14,7 +14,7 @@ int main()
       scanf("%d" , &b);
    c=(a+b)/2.0;
    
-   printf("Average is = %f" , c);
+   printf("Average is = %.2f" , c);
   return 0;
 }
 
