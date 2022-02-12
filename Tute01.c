@@ -4,8 +4,17 @@
 
 #include <stdio.h>
 
-int main() {
-  
+int main() 
+{
+  int a , b ;
+  float c ;
+   printf("Marks1 : ");
+      scanf("%d" , &a);
+   printf("Marks2 : ");
+      scanf("%d" , &b);
+   c=(a+b)/2.0;
+   
+   printf("Average is = %f" , c);
   return 0;
 }
 
