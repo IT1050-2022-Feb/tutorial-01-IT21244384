@@ -20,5 +20,24 @@ Amount = 30 x 50 + (50-30) x 40 = 2300*/
 
 int main() {
   
+  int d , x , y ;
+	printf("Input Distence : ");
+	scanf("%d" , &d );
+	
+	if( d <= 30)
+	{
+		x = d * 50 ;
+		printf("Amount = %d" , x);
+	}
+		
+		
+	
+	
+	else if(d >= 31 )
+	{
+		y = ( d - 30 ) * 40 + 1500 ;
+		printf("Amount nnn= %d" , y);
+	}
+  
   return 0;
 }
